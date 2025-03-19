@@ -12,7 +12,7 @@ public class triangle {
         System.out.println("Enter the Third side");
         int s3=sc.nextInt();
         if(s1==s2 && s2==s3){
-            System.out.println("Its an equilateral traingle");
+            System.out.println("Its an equilateral triangle");
         }
         else if(s1==s2 || s1==s3 || s2==s3 ){
             System.out.println("Its an isosceles triangle");
